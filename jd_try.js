@@ -29,7 +29,7 @@ let allGoodList = []
 
 // default params
 $.pageSize = 12
-let cidsList = ["家用电器", "手机数码", "电脑办公", "家居家装"]
+let cidsList = ["家用电器", "手机数码", "电脑办公","美妆护肤", "生鲜美食","家居家装","食品饮料","服饰鞋包","母婴玩具","服饰鞋包","个人护理","钟表奢品"]
 let typeList = ["普通试用", "闪电试用"]
 let goodFilters = "教程@软件@英语@辅导@培训".split('@')
 let minPrice = 0
