@@ -50,7 +50,7 @@ let args_xh = {
      * */
     titleFilters: process.env.JD_TRY_TITLEFILTERS && process.env.JD_TRY_TITLEFILTERS.split('@') || ["幼儿园", "教程", "英语", "辅导", "培训", "孩子", "小学"],
     // 试用价格(中了要花多少钱)，高于这个价格都不会试用，小于等于才会试用
-    trialPrice: 9000,
+    trialPrice: 10,
     /*
      * 最小提供数量，例如试用商品只提供2份试用资格，当前设置为1，则会进行申请
      * 若只提供5分试用资格，当前设置为10，则不会申请
@@ -73,7 +73,7 @@ let args_xh = {
      * 例如是18件，将会进行第三次获取，直到过滤完毕后为20件才会停止，不建议设置太大
      * 可设置环境变量：JD_TRY_MAXLENGTH
      * */
-    maxLength: process.env.JD_TRY_MAXLENGTH || 20
+    maxLength: process.env.JD_TRY_MAXLENGTH || 50
 }
 
 !(async() => {
